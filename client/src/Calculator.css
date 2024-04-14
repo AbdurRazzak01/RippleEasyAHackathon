@@ -1,0 +1,60 @@
+/* Calculator.css */
+.calculator-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto; /* Set height to auto to minimize */
+  padding: 5px; /* Add padding for spacing */
+}
+
+.calculator-form {
+  width: 700px; /* Increase the width */
+  padding: 5px;
+  border: 1px solid #ccc; /* Decrease border width */
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  margin-bottom: 5px;
+}
+
+.form-group label {
+  font-weight: bold;
+  margin-right: 2px;
+}
+
+.form-group input[type="number"] {
+  padding: 6px; /* Decrease padding for smaller input box */
+  font-size: 14px; /* Decrease text size */
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 5px; /* Add some space between input fields */
+  width: 70px; /* Decrease width of input box */
+}
+
+.calculate-button {
+  padding: 5px;
+  background-color: #4b0082; /* Change button color */
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.calculate-button:hover {
+  background-color: #2e005d; /* Darken button color on hover */
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+}
+
+.result {
+  margin-top: 10px;
+  font-weight: bold;
+}
